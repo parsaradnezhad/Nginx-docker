@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+
+  web:
+    image: parsarad/nginx:latest
+    ports:
+      - 8080:80
+   # volumes:
+     # - /test/docker/html:/var/www/parsa-net.ir
+     # - /test/docker/site.conf:/etc/nginx/conf.d/site.conf
